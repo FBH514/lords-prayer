@@ -1,9 +1,11 @@
 from ourfather import OurFather
 
 def main():
+    count = 0
     while True:
-        our_father = OurFather()
-        our_father.run()
+        OurFather().run()
+        count += 1
+        print(f"Prayed {count} times.")
 
 
 if __name__ == "__main__":
