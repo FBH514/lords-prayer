@@ -15,6 +15,10 @@ class Pray(UserInput):
         self.set_prayer(self.__FILE_NAME)
 
     def __repr__(self) -> str:
+        """
+        Return a string representation of the object.
+        :return: A string representation of the object.
+        """
         return f"Praying {self.__FILE_NAME.split('.')[0]}."
 
     def set_prayer(self, file_name) -> None:

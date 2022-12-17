@@ -13,7 +13,7 @@ class UserInput:
         Return a string representation of the object.
         :return: A string representation of the object.
         """
-        return f"{self.__prompt} was asked." \
+        return f"{self.__prompt} prompted" \
                f" The user input was {self.__input}."
 
     def get_str_input(self) -> str:
