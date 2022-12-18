@@ -23,6 +23,7 @@ def menu() -> str:
     """
     print("1. Pray the Our Father")
     print("2. Pray the Hail Mary")
+    print("3. Pray the Bible")
     while True:
         choice = UserInput("—> ").get_num_input()
         if choice == 1:
@@ -31,6 +32,9 @@ def menu() -> str:
         elif choice == 2:
             print("You chose to pray the Hail Mary.")
             return "hail_mary.csv"
+        elif choice == 3:
+            print("You chose to pray the Bible.")
+            # TODO: Add the Bible
         else:
             print("Invalid choice.")
 
